@@ -316,7 +316,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-8 bg-gray-50">
+    <main className="flex min-h-screen flex-col items-center p-8 bg-gray-50 text-black">
       <h1 className="text-3xl font-bold mb-8">Random Number Generator</h1>
 
       <div className="w-full max-w-md bg-white p-6 rounded-lg shadow-md mb-8">
