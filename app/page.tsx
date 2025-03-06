@@ -441,6 +441,8 @@ export default function Home() {
           <h3 className="font-medium mb-2">Your Recall:</h3>
           <input
             type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
             value={userInput}
             onChange={handleInputChange}
             placeholder="Type the numbers you remember..."
