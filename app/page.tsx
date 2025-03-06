@@ -10,7 +10,7 @@ export default function Home() {
   const [groupCount, setGroupCount] = useState(5);
   const [isBlurred, setIsBlurred] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
-  const [apiKey, setApiKey] = useState("sk_9402d7bebe4299be54cd81dc6fd3f75e066bed9e3e182676");
+  const [apiKey] = useState("sk_9402d7bebe4299be54cd81dc6fd3f75e066bed9e3e182676");
   const [pauseDuration, setPauseDuration] = useState(500); // Pause duration in milliseconds
 
   // State for generated numbers and user input
@@ -316,7 +316,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-8 bg-gray-50 text-black">
+    <main className="flex min-h-screen flex-col items-center p-8 bg-gray-50">
       <h1 className="text-3xl font-bold mb-8">Random Number Generator</h1>
 
       <div className="w-full max-w-md bg-white p-6 rounded-lg shadow-md mb-8">
